@@ -1,0 +1,325 @@
+h2{
+    text-align: center;
+}
+.div_servicios{
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 3%;
+}
+
+.div_servicios h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: #c5c5c5;
+}
+
+.div_servicios table{
+    width: 85%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+
+.div_servicios th, td{
+    border: 2px solid #000000 ;
+}
+
+.div_servicios a{
+    color: #29228a;
+    font-size: 25px;
+}
+
+
+#icon{
+    margin-left: 8%;
+    display: block;
+    
+    font-size: 35px;
+}
+
+#icon h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/* Tabla contenidos coloreados */
+
+.div_servicios tr:nth-child(even) {
+    background-color: #afafaf;
+
+}
+
+.div_servicios tr:hover{
+    background-color: #ffa4a4;
+}
+
+
+/* Formulario Mantener Servicio */
+
+.for_serv{
+    max-width: 80%;
+    margin: auto;
+}
+.for_serv form{
+    width: 60%;
+    margin: 5% auto 5%;
+    background-color: #daf1ff;
+    padding: 6%;
+    text-align: left;
+    border-radius: 8px;
+
+}
+.for_serv input{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 2%;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+    
+    text-transform:unset ;
+
+}
+
+.for_serv h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #29228a;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+#bot_ac{
+    color: #000000;
+    background-color: #5eeb65;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+
+}
+
+
+
+#bot_ac :hover{
+    color: rgb(255, 255, 255);
+    background-color: #004d0e;
+    
+}
+
+#bot_ca{
+    color: #ffffff;
+    background-color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+
+}
+
+#bot_ca :hover{
+    color: #ffffff;
+    background-color: #000000;
+    
+}
+
+#bot_can input{
+    color: #ffffff;
+    background-color: #a1a1a1;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    text-align: right;
+
+}
+
+#bot_can :hover{
+    color: #ffffff;
+    background-color: #a3a3a3;
+    
+}
+/*  tabla de instrucciones */
+
+.cot_tab{
+    max-width: 95%;
+    margin: auto;
+    padding: 2%;
+    overflow: hidden;
+}
+
+
+
+.cot_tab table{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 3%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #7b7b8a;
+
+}
+
+.cot_tab img{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    display: block;
+    margin-top: auto;
+}
+
+.cot_tab th{
+    font-size: 17px;
+}
+
+/* Tabla de decision de Productos o servicios */
+.min_may{
+    max-width: 85%;
+    margin: auto;
+}
+
+.min_may a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    float: center;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.min_may table{
+    width: 60%;
+    margin: 5% auto 5%;
+    background-color: #797992;
+    padding: 6%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.min_may i{
+    font-size: 45px;
+}
+
+.fo_pro{
+    max-width: 80%;
+    margin: auto;
+}
+.fo_pro form{
+    width: 60%;
+    margin: 5% auto 5%;
+    background-color: #d3c8d3;
+    padding: 6%;
+    text-align: left;
+    border-radius: 8px;
+}
+.fo_pro input{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding: 2%;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+    
+    text-transform: unset;
+
+}
+
+.fo_pro h4{
+    text-align: center;
+}
+
+.fo_pro p{
+    text-decoration: underline;
+    
+}
+
+/* Boton enviar */
+#bot_1{
+    color: #ffffff;
+    background-color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+
+.envi_cot{
+    overflow: hidden;
+    margin-top: 3%;
+    width: 85%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #d6ffff;
+}
+
+
+.envi_cot h4{
+    font-size: 500px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.envi_cot i{
+    font-size: 60px;
+    text-align: center;
+}
+
+.envi_cot img{
+    float: left;
+}
+
+/*  */
+#titu{
+    color: #da1e1e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    padding: 5%;
+    font-size: 45px;
+}
+
+
+#tit{
+    font-size: 25px;
+    color: #858585;
+    padding: .5%;
+}
+
+#desc{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    padding: 2%;
+}
+
+#eleg{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}

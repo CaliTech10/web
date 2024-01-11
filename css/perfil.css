@@ -1,0 +1,98 @@
+.divi{
+    max-width: 50%;
+    overflow: hidden;
+    margin-top: 2%;
+    }
+    .divi h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        text-align: center;
+        margin: auto;
+        color: #000000;
+    }
+    .divi table{
+        width: 50%;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    .divi th,td{
+        border: 2px solid #000000;
+        padding: 3px 2px ;
+    }
+    .divi a{
+        color:#1ba61b;
+        font-size: 18px;
+    }
+    #agregar{
+        color: #030303;
+       margin-left: 10%;
+       display: block;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-bottom: 1%;
+       font-size: 15px;
+       text-decoration: none;
+    }
+    #agregar i{
+        font-size: 35px;
+    }
+    .divi tr:nth-child(even){
+    background-color: #c6c2fa;
+    }
+    .divi tr:hover{
+        background-color: #adaeae;
+    }
+    .agregar{
+        max-width: 90%; 
+        margin: auto;
+     }
+     .agregar form{
+         width: 70%;
+         margin: 8% auto 5% ;
+         background-color: #676568;
+         padding: 4%;
+         text-align: center;
+         border-radius: 10px;
+         margin-left: 17%;
+     }
+     .agregar input{
+        font-family: 'Cambria';
+        font-size: 20px ;
+        width: 100%;
+        background-color: #9e9ba1;
+        padding: 2%;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2%;
+     }
+     #cate{
+        font-family: 'Cambria';
+        font-size: 20px ;
+        width: 100%;
+        background-color: #727272;
+        padding: 2%;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2%; 
+        cursor: pointer;
+     }
+     #aceptar{
+        background-color: #12f3ab;
+        cursor: pointer;
+     }
+     #cancelar{
+        background-color: #ff0000;
+        cursor: pointer;
+     }
+     .galeria{
+        max-width: 100%;
+        padding: 5%;
+        background-color: rgb(176, 166, 179);
+    
+    }
+    
